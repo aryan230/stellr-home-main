@@ -13,6 +13,10 @@ import FooterData from "../components/Footer/FooterData";
 import SecurityFeatures from "../components/Features/SecurityFeatures";
 import Footer from "../components/Footer/Footer";
 import Designtab from "../components/Features/Designtab";
+import TrackingGetstarted from "../components/TrackingGetstarted";
+import AgencyAction from "../components/AgencyAction";
+import PrototypeFooter from "../components/Footer/PrototypeFooter";
+import FooterThree from "../components/Footer/FooterThree";
 
 const HomeCloud = () => {
   return (

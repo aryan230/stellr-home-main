@@ -46,12 +46,13 @@ function Forms() {
         </div>
       ) : (
         <>
-          {" "}
+          <h1>Request a Demo!</h1>
+          <p>Streamline your research today</p>{" "}
           <div className="form-element">
-            <label htmlFor="">Enter Name</label>
+            <label htmlFor=""> Name</label>
             <input
               type="text"
-              placeholder="Your Full Name"
+              placeholder="Enter Full Name"
               onChange={(e) => {
                 handleChange("Name", e.target.value);
               }}
@@ -59,10 +60,10 @@ function Forms() {
             />
           </div>
           <div className="form-element">
-            <label htmlFor="">Enter Email</label>
+            <label htmlFor="">Email Address</label>
             <input
               type="email"
-              placeholder="Your Email Address"
+              placeholder="Entrer your email address"
               required
               onChange={(e) => {
                 handleChange("Email", e.target.value);
@@ -70,10 +71,10 @@ function Forms() {
             />
           </div>
           <div className="form-element">
-            <label htmlFor="">Enter Number</label>
+            <label htmlFor="">Number</label>
             <input
               type="number"
-              placeholder="Your Number"
+              placeholder="Enter your number"
               required
               onChange={(e) => {
                 handleChange("Number", e.target.value);
@@ -81,10 +82,10 @@ function Forms() {
             />
           </div>
           <div className="form-element">
-            <label htmlFor="">Enter Title</label>
+            <label htmlFor="">Title</label>
             <input
               type="text"
-              placeholder="Your Title"
+              placeholder="Enter title"
               required
               onChange={(e) => {
                 handleChange("Title", e.target.value);
@@ -92,10 +93,10 @@ function Forms() {
             />
           </div>
           <div className="form-element">
-            <label htmlFor="">Enter Industry</label>
+            <label htmlFor=""> Industry</label>
             <input
               type="text"
-              placeholder="Your Industry"
+              placeholder="Enter your industry"
               required
               onChange={(e) => {
                 handleChange("Industry", e.target.value);

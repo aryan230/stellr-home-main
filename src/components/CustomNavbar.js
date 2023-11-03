@@ -42,9 +42,13 @@ class CustomNavbar extends Component {
               >
                 <ul className={`navbar-nav menu ml-auto ${nClass}`}>
                   <li className="nav-item">
-                    <NavLink title="Pricing" className="nav-link" to="/Contact">
+                    <a
+                      title="Pricing"
+                      className="nav-link"
+                      href="mailto:sahil@getstellr.io"
+                    >
                       sahil@getstellr.io
-                    </NavLink>
+                    </a>
                   </li>
                 </ul>
                 <a

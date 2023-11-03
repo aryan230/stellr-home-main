@@ -78,23 +78,27 @@
 
 .card-glass form h1 {
   color: white;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0px;
 }
 
 .card-glass form p {
   color: white;
   font-size: 0.875rem;
+  margin-top: 2px;
+  margin-bottom: 5px;
 }
 
 .card-glass form input {
   display: block;
   width: 100%;
-  padding: 5px 10px;
-  margin: 5px auto;
+  padding: 4px 10px;
+  margin: 3px auto;
   background-color: #f1f1f1;
   border: none;
   outline: none;
-  font-size: 14px !important;
+  font-size: 12px !important;
   font-family: "Open Sans", sans-serif !important;
   border-radius: 5px;
 }
@@ -200,12 +204,8 @@
 }
 
 .card-glass form button {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  border-radius: 2rem;
-  width: 100%;
+  padding: 0.675em 3rem;
+  border-radius: 20rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 400;
@@ -213,7 +213,7 @@
   color: #ffffff;
   border: 2px solid white;
   background-color: transparent;
-  margin-top: 2rem;
+  margin-top: 1rem;
   transition: 0.2s all;
 }
 
@@ -229,8 +229,8 @@
 
 .form-element label {
   display: block;
-  margin-bottom: 0.5rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  font-size: 12px;
   line-height: 1.25rem;
   font-weight: 300;
   color: white;
