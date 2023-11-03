@@ -32,10 +32,10 @@
     "source-map-explorer": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start --openssl-legacy-provider start",
-    "build": "react-scripts build --openssl-legacy-provider start",
-    "test": "react-scripts test --openssl-legacy-provider start",
-    "eject": "react-scripts eject --openssl-legacy-provider start"
+    "start": "react-scripts -openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
   },
   "eslintConfig": {
     "extends": "react-app"
